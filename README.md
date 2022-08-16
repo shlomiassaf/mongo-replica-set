@@ -123,7 +123,7 @@ services:
   mongodb:
     profiles:
       - mongo
-    image : shlomiassaf/mongo-replica-set:4.4.8
+    image : shlomiassaf/mongo-replica-set:5.0.10
     hostname: mongodb
     volumes:
       - "/docker-mount/mongodb/mongo1:/var/lib/mongo1"
